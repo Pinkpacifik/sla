@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./New-Hunter.jpg) center/contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #3484d5;
+  font-family: "Poppins", sans-serif;
+  padding-top: 400px;
+}
+
+.table-container {
+  margin: auto;
+  padding-bottom: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+}
+
+thead tr:nth-child(1) {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+thead tr:nth-child(1) th:nth-child(1) {
+  text-align: left;
+  padding-left: 0;
+}
+
+thead tr:nth-child(1) th:nth-child(2) {
+  text-align: right;
+  padding-right: 0;
+}
+
+thead tr:nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+  height: 50%;
+  background: rgba(97, 93, 93, 0.397);
+
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  background: rgba(97, 93, 93, 0.397);
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
